@@ -1,0 +1,28 @@
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: PT Sans Narrow;
+    width: 1200px;
+}
+.main-header{
+    height: 72px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+ul li {
+    display: inline;
+}
+.user-block {
+
+}
+h1 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.field-title {
+    font-size: 24px;
+    line-height: 30px;
+}
