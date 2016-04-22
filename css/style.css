@@ -2,21 +2,16 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
-    font-family: PT Sans Narrow;
-    width: 1200px;
+    font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 }
 .main-header{
-    height: 72px;
     background-color: black;
     color: white;
     font-size: 16px;
     line-height: 20px;
 }
-ul li {
+.main-navigation li {
     display: inline;
-}
-.user-block {
-
 }
 h1 {
     font-size: 30px;
