@@ -116,3 +116,15 @@ h1 {
     width: 160px;
     background-color: aqua;
 }
+.filter-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin-right: 10px;
+    background-color: aqua;
+}
+.goods {
+    display: inline-block;
+    vertical-align: top;
+    width: 700px;
+}
