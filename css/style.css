@@ -28,12 +28,10 @@ body {
     background-color: green;
     float: left;
 }
-
 .main-navigation li {
     display: inline;
 }
 .user-block {
-    display: inline-block;
     width: 140px;
     padding-top: 29px;
     padding-bottom: 30px;
@@ -46,7 +44,6 @@ h1 {
     font-size: 30px;
     line-height: 42px;
     background-color: aqua;
-
 }
 .breadcrumbs {
     padding: 0;
@@ -112,15 +109,14 @@ h1 {
     display: inline-block;
     width: 310px;
     margin-right: 70px;
+    vertical-align: middle;
     background-color: aqua;
 }
 .footer-authors {
     display: inline-block;
+    vertical-align: middle;
     width: 160px;
     margin: 0;
     padding: 0;
     background-color: aqua;
-}
-.footer-authors a {
-    display: block;
 }
