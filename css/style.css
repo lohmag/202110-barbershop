@@ -38,7 +38,6 @@ body {
     background-color: green;
     float: right;
 }
-
 h1 {
     width: 720px;
     font-size: 30px;
@@ -95,28 +94,25 @@ h1 {
     margin-bottom: 43px;
 }
 .main-footer {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     background-color: #232323;
 }
 .footer-contacts {
-    display: inline-block;
-    width: 380px;
+    float: left;
+    width: 380px;;
     margin-right: 10px;
-    padding-top: 63px;
-    padding-bottom: 44px;
     background-color: aqua;
 }
 .footer-social {
-    display: inline-block;
+    float: left;
     width: 310px;
     margin-right: 70px;
-    vertical-align: middle;
     background-color: aqua;
 }
 .footer-authors {
-    display: inline-block;
-    vertical-align: middle;
+    float: left;
     width: 160px;
-    margin: 0;
-    padding: 0;
     background-color: aqua;
 }
