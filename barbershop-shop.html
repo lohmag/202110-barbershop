@@ -31,30 +31,31 @@
       <li><a href="#">Магазин</a></li>
       <li>Средства для ухода</li>
     </ul>
-    <form class="filter-form">
-      <fieldset class="manufacturers">
-        <legend class="field-title">Производители</legend>
-        <label><input type="checkbox" name="baxter" value="baxter of clifornia">Baxter of California</label>
-        <label><input type="checkbox" name="mr natty" value="mr natty">Mr Natty</label>
-        <label><input type="checkbox" name="suavecito" value="suavecito">Suavecito</label>
-        <label><input type="checkbox" name="malin" value="malin">Malin+Goetz</label>
-        <label><input type="checkbox" name="murray" value="murray">Murray's</label>
-        <label><input type="checkbox" name="american crew" value="american crew">American Crew</label>
-      </fieldset>
-      <fieldset class="item-groups">
-        <legend class="field-title">Группы товаров</legend>
-        <label><input type="radio" name="groups" value="shaving">Бритвенные принадлежности</label>
-        <label><input type="radio" name="groups" value="care">Средства для ухода</label>
-        <label><input type="radio" name="groups" value="accesories">Аксесуары</label>
-      </fieldset>
-      <input class="selectors-btn" type="submit" value="Показать">
-    </form>
+    <aside class="filter-form">
+      <form>
+        <fieldset class="manufacturers">
+          <legend class="field-title">Производители</legend>
+          <label><input type="checkbox" name="baxter" value="baxter of clifornia">Baxter of California</label>
+          <label><input type="checkbox" name="mr natty" value="mr natty">Mr Natty</label>
+          <label><input type="checkbox" name="suavecito" value="suavecito">Suavecito</label>
+          <label><input type="checkbox" name="malin" value="malin">Malin+Goetz</label>
+          <label><input type="checkbox" name="murray" value="murray">Murray's</label>
+          <label><input type="checkbox" name="american crew" value="american crew">American Crew</label>
+        </fieldset>
+        <fieldset class="item-groups">
+          <legend class="field-title">Группы товаров</legend>
+          <label><input type="radio" name="groups" value="shaving">Бритвенные принадлежности</label>
+          <label><input type="radio" name="groups" value="care">Средства для ухода</label>
+          <label><input type="radio" name="groups" value="accesories">Аксесуары</label>
+        </fieldset>
+        <input class="selectors-btn" type="submit" value="Показать">
+      </form>
+    </aside>
     <section class="goods">
       <div class="item-card">
-        <img src="img/Baxter_California_kit_small.jpg" height="165" width="220" alt="Набор для путешествий">
-
+        <img src="img/baxter_california_kit_small.jpg" height="165" width="220" alt="Набор для путешествий">
             <span class="item-title">
-                Набор для путешествий "Baxter of California"
+                <span class="item-description">Набор для путешествий</span><span class="manufacturer-name">"Baxter of California"</span>
             </span>
 
         <div class="goods-buy">
@@ -66,7 +67,7 @@
         <img src="img/baxter_california_soap_small.jpg" height="165" width="220" alt="Увлажняющий кондиционер">
 
             <span class="item-title">
-                Увлажняющий кондиционер "Baxter of California"
+                <span class="item-description">Увлажняющий кондиционер</span><span class="manufacturer name">"Baxter of California"</span>
             </span>
 
         <div class="goods-buy">
@@ -78,7 +79,7 @@
         <img src="img/suavicito.jpg" height="165" width="220" alt="Гель для волос">
 
             <span class="item-title">
-                Гель для волос "Suavicito"
+                <span class="item-description">Гель для волос</span><span class="manufacturer name">"Suavicito"</span>
             </span>
 
         <div class="goods-buy">
@@ -90,7 +91,7 @@
         <img src="img/american_crew_mud_small.jpg" height="165" width="220" alt="Глина для укладки волос">
 
             <span class="item-title">
-                Глина для укладки волос "American Crew"
+                <span class="item-description">Глина для укладки волос</span><span class="manufacturer name">"American Crew"</span>
             </span>
 
         <div class="goods-buy">
@@ -102,7 +103,7 @@
         <img src="img/american_crew_hel_small.jpg" height="165" width="220" alt="Гель для волос">
 
             <span class="item-title">
-                Гель для волос "American Crew"
+                <span class="item-description">Гель для волос</span><span class="manufacturer name">"American Crew"</span>
             </span>
 
         <div class="goods-buy">
@@ -114,7 +115,7 @@
         <img src="img/baxter_california_shaving_small.jpg" height="165" width="220" alt="Набор для бритья">
 
             <span class="item-title">
-                Набор для бритья "Baxter of California"
+                <span class="item-description">Набор для бритья</span><span class="manufacturer name">"Baxter of California"</span>
             </span>
 
         <div class="goods-buy">
@@ -122,13 +123,14 @@
           <a href="#" class="goods-buy">Купить</a>
         </div>
       </div>
+      <ul class="pagination">
+        <li><a class="pages-btn" href="#">1</a></li>
+        <li><a class="pages-btn" href="#">2</a></li>
+        <li><a class="pages-btn" href="#">3</a></li>
+        <li><a class="pages-btn" href="#">4</a></li>
+      </ul>
     </section>
-    <ul class="pagination">
-      <li><a class="pages-btn" href="#">1</a></li>
-      <li><a class="pages-btn" href="#">2</a></li>
-      <li><a class="pages-btn" href="#">3</a></li>
-      <li><a class="pages-btn" href="#">4</a></li>
-    </ul>
+
   </main>
   <footer class="main-footer">
     <div class="container clearfix">
@@ -138,10 +140,11 @@
         <a class="footer-contacts-find" href="#">Как нас найти?</a><br>
         Телефон:+7 (495)6660266
       </section>
-      <section class="footer-social">test
-        <a class="social-vk" href="#"></a>
-        <a class="social-fb" href="#"></a>
-        <a class="social-instagram" href="#"></a>
+      <section class="footer-social">
+        Давайте дружить!<br>
+        <a class="social-vk" href="#">vkontakte</a>
+        <a class="social-fb" href="#">facebook</a>
+        <a class="social-instagram" href="#">instagram</a>
       </section>
       <section class="footer-authors">
         Разработано
